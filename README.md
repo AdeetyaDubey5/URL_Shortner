@@ -29,26 +29,26 @@ This is a simple yet powerful URL shortener service built in Go. It allows users
 **Request Body:**
 ```json
 {
-  "url": "https://gemini.google.com/app/0f81ef95d7aacd96"
+  "url": "https://github.com"
 }
 ```
 
 **Response:**
 ```json
 {
-  "short_code": "1a2b3c4d",
-  "_links": [
-    {
-      "href": "http://localhost:3000/redirect/1a2b3c4d",
-      "rel": "redirect_to_original",
-      "type": "text/html"
-    },
-    {
-      "href": "http://localhost:3000/shorten",
-      "rel": "self",
-      "type": "application/json"
-    }
-  ]
+    "short_code": "3097fca9",
+    "_links": [
+        {
+            "href": "http://localhost:3000/redirect/3097fca9",
+            "rel": "redirect_to_original",
+            "type": "text/html"
+        },
+        {
+            "href": "http://localhost:3000/shorten",
+            "rel": "self",
+            "type": "application/json"
+        }
+    ]
 }
 ```
 

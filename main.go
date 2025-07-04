@@ -109,10 +109,6 @@ func redirectURLHandler (w http.ResponseWriter,r *http.Request) {
  
 func main() {
 	fmt.Println("Starting URL Shortner")
-	OriginalURL := "https://gemini.google.com/app/0f81ef95d7aacd96"
-	ShortURL := URL_shortner(OriginalURL)
-	fmt.Println("Original URL: ", OriginalURL)
-	fmt.Println("Shortend URL: ", ShortURL)
 
 	// Register the `Handler` func which will handle the requests to the root URL("/")
 	http.HandleFunc("/",handler)
