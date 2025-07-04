@@ -101,17 +101,6 @@ http://localhost:3000
 
 ---
 
-## Example Output
-
-Terminal output when server starts:
-```
-Starting URL Shortner
-Original URL:  https://gemini.google.com/app/0f81ef95d7aacd96
-Shortend URL:  1a2b3c4d
-Starting serve on Port:3000
-```
-
----
 
 ## Notes
 
