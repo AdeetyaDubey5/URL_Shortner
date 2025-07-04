@@ -64,8 +64,10 @@ This is a simple yet powerful URL shortener service built in Go. It allows users
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/your-username/go-url-shortener
-cd go-url-shortener
+git clone https://github.com/AdeetyaDubey5/URL_Shortner
+```
+```bash
+cd URL_Shortner
 ```
 
 2. **Run the application:**
